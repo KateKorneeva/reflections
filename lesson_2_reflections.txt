@@ -15,3 +15,7 @@ To see the reachability of commits
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 result is one branch with changes from both. because they are now one.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pro: faster, easier
+contras: might resolve not correctly sometimes
