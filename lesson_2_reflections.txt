@@ -3,3 +3,15 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area contains only those files with changes, which were added and which will be included then into commit. Working directory is a folder on a computer that contains all files in the latest state and .git folder. Repository contains commits from staging area. This concept offers possibility to commit only those files which are needed at once - to have logical different commits, or to store only prepared files in the repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+by checking differences between staging area and repository before commit
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+If I want to introduce another version of application and I don't want to loose another one. I would have copied the directories in past, but then I would not be able to fix the same bug in two folders simultaneously.
+
+How do the diagrams help you visualize the branch structure?
+To see the reachability of commits
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+result is one branch with changes from both. because they are now one.
